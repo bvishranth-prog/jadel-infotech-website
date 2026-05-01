@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Jadel Infotech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">J</span>
+                <span class="logo-text">Jadel Infotech</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="courses.html" class="nav-link">Courses</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>JADEL INFO TECH</h1>
+        <p>COMPUTER TRAINING CENTRE</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" placeholder="How can we help?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell us more about your inquiry..." rows="5" required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="course">Interested Course</label>
+                            <select id="course" name="course">
+                                <option value="">Select a course</option>
+                                <option value="web-dev">Web Development</option>
+                                <option value="python">Python Programming</option>
+                                <option value="java">Java & Spring Boot</option>
+                                <option value="cloud">Cloud Computing</option>
+                                <option value="data-science">Data Science & Analytics</option>
+                                <option value="mobile">Mobile Development</option>
+                                <option value="devops">DevOps & CI/CD</option>
+                                <option value="cybersecurity">Cybersecurity Essentials</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-container">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="info-box">
+                        <div class="info-icon">📍</div>
+                        <div class="info-content">
+                            <h3>Visit Us</h3>
+                            <p>15- 528, Pampatti St<br>near Market, Keelavasal<br>Maharnonbu Chavadi<br>Thanjavur, Tamil Nadu 613001</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">📞</div>
+                        <div class="info-content">
+                            <h3>Call Us</h3>
+                            <p><strong>Phone:</strong> 088386 13043<br>
+                            <strong>Phone:</strong> 089738 34957<br>
+                            <strong>Hours:</strong> Sun-Sat, 10AM-8:30PM IST</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon">📧</div>
+                        <div class="info-content">
+                            <h3>Email Us</h3>
+                            <p><strong>General:</strong> info@jadelinfotech.com<br>
+                            <strong>Support:</strong> support@jadelinfotech.com<br>
+                            <strong>Admissions:</strong> admissions@jadelinfotech.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box social-box">
+                        <h3>Connect With Us</h3>
+                        <div class="social-connect">
+                            <a href="https://share.google/Ai2oCBkZWHQzBVphd" target="_blank" class="social-btn">Google</a>
+                        </div>
+                    </div>
+
+                    <div class="info-box map-placeholder">
+                        <h3>Location Map</h3>
+                        <div class="map-container">
+                            <a href="https://maps.app.goo.gl/LEZQ2b4Ju3X62k2EA" target="_blank" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; overflow: hidden; border-radius: 8px;">
+                                <img src="pictures/map.jpg" alt="Jadel Infotech Location Map" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>How do I enroll in a course?</h4>
+                    <p>Simply fill out the contact form above or call us directly. Our admissions team will guide you through the enrollment process.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Are there batch options?</h4>
+                    <p>Yes! We offer weekday, weekend, and flexible online batches to suit your schedule.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What's the placement success rate?</h4>
+                    <p>We have a 95% placement rate with our graduates landing jobs at top tech companies.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do you offer scholarships?</h4>
+                    <p>Yes, we offer merit-based scholarships and financial assistance to deserving students.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I switch courses?</h4>
+                    <p>We provide flexibility to switch or combine courses. Consult with our advisors for options.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Is there a money-back guarantee?</h4>
+                    <p>We offer a 7-day satisfaction guarantee. If you're not satisfied, we'll refund your course fee.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Jadel Infotech</h4>
+                <p>Empowering students with cutting-edge technology training</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://share.google/Ai2oCBkZWHQzBVphd" target="_blank">Google</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Jadel Infotech. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
