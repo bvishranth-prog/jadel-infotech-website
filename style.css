@@ -148,7 +148,7 @@ a:hover {
 }
 
 .logo-text {
-    font-family: 'Century Gothic', 'Apple Gothic', 'ITC Avant Garde Gothic', sans-serif;
+    font-family: 'copperplate gothic bold', serif;
     font-weight: 700;
     color: var(--primary-blue);
 }
