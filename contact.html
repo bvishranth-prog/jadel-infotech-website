@@ -195,5 +195,42 @@
             <p>&copy; 2026 Jadel Infotech. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.querySelector('.contact-form');
+            
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form data
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const phone = document.getElementById('phone').value;
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value;
+                const course = document.getElementById('course').value;
+                
+                // Create email content
+                const emailSubject = encodeURIComponent(`Contact Form: ${subject}`);
+                const emailBody = encodeURIComponent(
+                    `Name: ${name}\n` +
+                    `Email: ${email}\n` +
+                    `Phone: ${phone}\n` +
+                    `Interested Course: ${course}\n\n` +
+                    `Message:\n${message}`
+                );
+                
+                // Create mailto link
+                const mailtoLink = `mailto:b.vishranth@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+                
+                // Open email client
+                window.location.href = mailtoLink;
+                
+                // Optional: Show success message
+                alert('Opening your email client to send the message...');
+            });
+        });
+    </script>
 </body>
 </html>
